@@ -1,25 +1,20 @@
-let bleach = document.querySelector('.Ichigo');
-let theme1 = document.querySelector('.Number_1');
-let JoJo = document.querySelector('.KonoDioDa');
-
-theme1.onclick = function() {
-    let a = +bleach.value
-    alert(a)
+document.querySelector(".test1").innerHTML = "<h2>Hello User</h2>"
+document.querySelector("h1").innerHTML = "BLEACH TYBW"
+let inp1 = document.querySelector(".inp")
+let btn1 = document.querySelector(".btn")
+let div2 = document.querySelector(".test2")
+let p2 = document.querySelector(".p1")
+btn1.onclick = function() {
+    console.log("date update")
+    
+    let inp2 = +inp1.value
+    div2.innerHTML = inp2
+    console.log(inp2)
 }
 
-
-
-if (bleach > 100) {
-
-    JoJo.querySelector(".KonoDioDa").innerHTML = "Muda muda muda muda!"
-
-} else (bleach < 100) {
-
-    console.log("Non non non non non...")
-    alert("To be Continued")
+let prom = prompt("Which Bleach character do you want to play?")
+if (prom == "Ichigo") {
+    p2.innerHTML = "You've chosen " + prom
+} else {
+    alert ("Incorrect. That character's name doesn't exist!")
 }
-
-
-
-
-
