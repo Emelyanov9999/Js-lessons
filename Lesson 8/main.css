@@ -1,0 +1,50 @@
+.new1 {
+    width: 500px;
+    height: 170px;
+    border: 2px dashed black;
+    text-indent: 20px;
+    font-family:'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+.new1::first-letter {
+    color: crimson;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+/*Задание 2*/
+ul li {
+    margin-top: 5px;
+}
+
+.class1 {
+    font-style: italic;
+}
+
+.class2 {
+    color: darkcyan;
+}
+
+.class3 {
+    list-style-type:circle;
+    text-decoration: underline;
+}
+
+.btn2 {
+    background-color: brown;
+    color: bisque;
+    margin-left: 200px;
+    padding: 10px;
+}
+/*Задание 3*/
+.btn3 {
+    background-color: brown;
+    color: bisque;
+    margin-left: 200px;
+    padding: 10px;
+}
