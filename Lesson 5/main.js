@@ -11,8 +11,8 @@
 // let b = 0
 // while ( b <= 10) {
 //     if( b % 2 == 1) continue
-//     be++
-//     console.log(be)
+//     b++
+//     console.log(b)
 // }
 
 // let c = 0
