@@ -1,0 +1,10 @@
+.container {
+    width: 200px;
+    background: linear-gradient(55deg, #2BC0E4,#EAECC6);
+    color:rgb(16, 22, 22);
+    box-shadow: 5px 5px 15px -5px black;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 18px;
+    
+}
