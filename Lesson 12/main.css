@@ -1,0 +1,45 @@
+.container{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.d1 {
+    width: 120px;
+    height: 50px;
+    background: lightgreen;
+}
+
+.d2{
+    width: 120px;
+    height: 50px;
+    background: cadetblue;
+}
+
+.img1{
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/img/png-transparent-devil-may-cry-3-dante-s-awakening-devil-may-cry-hd-collection-devil-may-cry-4-ultimate-marvel-vs-capcom-3-dmc-devil-may-cry-dante.png);
+}
+
+.img2{
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/img/png-transparent-devil-may-cry-3-dante-s-awakening-devil-may-cry-4-devil-may-cry-5-dmc-devil-may-cry-devil-may-cry-vergil-dante.png);
+}
+
+.d3{
+    background-color: rgb(88, 154, 189);
+    width: 180px;
+    height: 50px;
+    margin-top: 5px;
+}
